@@ -19,6 +19,19 @@
 
 function removeKFromList(/* l, k */) {
   throw new Error('Not implemented');
+  // const list = new ListNode();
+  // list.next = l;
+  // let node = list;
+  //
+  // while (node.next) {
+  //   if (node.next.value === k) {
+  //     node.next = node.next.next;
+  //   } else {
+  //     node = node.next;
+  //   }
+  // }
+  //
+  // return list.next;
 }
 
 module.exports = removeKFromList;
